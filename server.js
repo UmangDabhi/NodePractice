@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
-    let path = './Views/';
+    let path = './Old-Views/';
     switch (req.url) {
         case '/':
             path += 'index.html';
